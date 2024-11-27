@@ -1,0 +1,67 @@
+body {
+    background-color: #f095b3;
+}
+
+.img-1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    object-fit: cover;
+}
+
+.barra-roxa {
+    background-color: #663399;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    background-color: #821373; /* Cor de fundo da caixa */
+    border: 1px solid #663399; /* Borda da caixa */
+    border-radius: 15px; /* Arredonda as bordas da caixa */
+    margin: 5px; /* Espaçamento entre as caixas */
+}
+
+.menu:hover {
+    background-color: #463399; /* Muda a cor de fundo ao passar o mouse */
+}
+
+.texto-canto {
+    text-align: center;
+    position: absolute;
+    bottom: -150px;
+    right: 90px;
+    background-color: #f9f9f9; /* Cor de fundo da caixa */
+    padding: 5px;
+    border: 2px solid #ccc;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Ajuste a largura conforme necessário */
+  }
+
+  .leticia {
+
+    align-content: center;
+    display: inline-block;
+    justify-content: space-between;
+    
+  }
+
+  .texto-canto2 {
+
+    text-align: center;
+    position: absolute;
+    bottom: -225px;
+    right: 90px;
+    background-color: #f9f9f9; /* Cor de fundo da caixa */
+    padding: 5px;
+    border: 2px solid #ccc;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Ajuste a largura conforme necessário */
+
+  }
